@@ -68,7 +68,7 @@ h4{
 }
 .about{
     width: 100%;
-    height: 80vh;
+    min-height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,13 +76,14 @@ h4{
     flex-wrap: wrap;
 }
 .about-content{
-    max-width: 40%;
-    min-width: 300px;
+    width: 450px;
     
 }
 #content{
-    width: 450px;
-    height: 70px;
+    max-width: 450px;
+    min-width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
 }
 .about-content > *{
     line-height: 1.5rem;
@@ -93,12 +94,81 @@ h4{
     color: #fff;
     background-color: var(--purple);
     padding: 15px 40px;
-    border: 2px solid transparent;
+    border: 2px solid var(--purple);
     border-radius: 30px;
     cursor: pointer;
+    margin: 20px 0;
+    transition: .5s;
+
+}
+.button>a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 700;
+    color: #fff;
+}
+.button:hover{
+    background-color: transparent;
 }
 .image{
     max-width: 430px;
     min-width: 150px;
     border-radius: 15px;
+}
+.skills{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.subtitle{
+    width: 170px;
+    margin: 20px 0;
+}
+.skill-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card h4{
+    margin: 20px 0;
+}
+.card{
+    width: 400px;
+    height: auto;
+    background-color: rgb(61, 61, 61);
+    margin-top: 20px;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 15px;
+    transition: .5s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card:hover{
+    background-color: transparent;
+
+}
+.skill-logo{
+    margin-top: 10px;
+    font-size: 80px;
+    color: var(--pink);
+    transition: .5s;
+}
+.skill-logo:hover{
+    color: green;
+}
+.skill-content{
+    width: 80%;
+    min-height: 200px;
+    margin: 0 auto;
+
 }

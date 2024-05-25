@@ -21,8 +21,9 @@
             <h2 class="logo">Mahmudjon<span class="purple">'s Portfolio</span> </h2>
             <ul>
                 <li><a href="#"> Home</a></li>
-                <li><a href="#"> About me</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#about"> About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact with me </a></li>
             </ul>
         </nav>
@@ -37,16 +38,66 @@
             </div>
         </div>
     </div>
-    <div class="about container">
+    <!-- about me -->
+    <div class="about container" id="about">
         <img src="./static/my-image.jpg" alt="my-image" width="430" class="image">
         <div class="about-content">
             <h1>About me</h1>
             <h4>Full-stack developer <span class="purple"> & Creative partner</span></h4>
             <p class="pink" id="content"></p>
-            <button type="button" class="button">Let's talk</button>
+            <button type="button" class="button"><a href="https://t.me/mahmudjon_js" target="_blank">Let's
+                    talk</a></button>
         </div>
     </div>
+    <!-- skills  -->
+    <div class="container skills" id="skills">
+        <h1>My Skills</h1>
+        <h4 class="subtitle">What can I do <span id="dots" class="purple"></span></h4>
+        <div class="skill-info">
+            <div class="card">
+                <h3><i class="fa-brands fa-js skill-logo"></i></h3>
+                <h4 class="skill-title">Html, Css & Javascript</h4>
+                <p class="skill-content">HTML, CSS, and JavaScript are the pillars of web development. HTML structures
+                    the content, CSS styles it, and JavaScript adds interactivity. Together, they form a robust toolkit
+                    for creating dynamic web applications. HTML’s semantic tags organize content, CSS offers design
+                    flexibility, and JavaScript’s event-driven nature enhances user interfaces. These tools are
+                    essential for any web development project.</p>
+                <button type="button" class="button"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                        target="_blank">Documentation</a> </button>
+            </div>
+            <div class="card">
+                <h3><i class="fa-brands fa-vuejs skill-logo"></i></h3>
+                <h4 class="skill-title">Vue.js</h4>
+                <p class="skill-content">Vue.js is a progressive JavaScript framework used to develop interactive web
+                    interfaces. It's a good choice for an MVVM (Model-View-ViewModel) pattern, offering a two-way data
+                    binding, server-side rendering, Vue CLI, and optional JSX support. Vue 3 provides a <span
+                        class="pink"> powerful and
+                        flexible framework</span> for building complex front-end applications. With features like the
+                    Composition
+                    API, improved TypeScript support, and more, it’s a great choice for any web development project.</p>
+                <button type="button" class="button"><a href="https://vuejs.org/" target="_blank">Documentation</a>
+                </button>
+            </div>
+            <div class="card">
+                <h3><i class="fa-brands fa-node skill-logo"></i></h3>
+                <h4 class="skill-title">Node.js & Express.js</h4>
+                <p class="skill-content">Node.js is a server-side JavaScript runtime, efficient for data-intensive
+                    applications. Express.js, a Node.js framework, simplifies tasks like routing and middleware.
+                    Together, they offer a robust platform for backend development, combining Node.js’ throughput
+                    optimization with Express.js’ flexibility. Essential for backend projects, Node.js and Express.js
+                    <span class="pink">power dynamic</span> web applications
+                </p>
+                <button type="button" class="button"><a href="https://expressjs.com/" target="_blank">Documentation</a>
+                </button>
+            </div>
 
+
+        </div>
+    </div>
+    <!-- projects -->
+    <div class="projects container">
+        project
+    </div>
     <script src="./js/main.js"></script>
 </body>
 

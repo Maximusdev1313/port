@@ -5,7 +5,10 @@ const text = [
     { name: 'Freelancer' },
 ];
 const content = [{
-    name: "I am a Full-stack web developer. I can create web applications only with your ideas. You don't need to think about technical requirements and documents!"
+    name: "I am a Full-stack web developer. I can create web applications only with your ideas. You don't need to think about technical requirements and documents! If you are interested in working with me, you can write via telegram."
+}]
+const dots = [{
+    name: "..."
 }]
 function typeWriter(texts, id, speed) {
     var i = 0;
@@ -34,3 +37,4 @@ function typeWriter(texts, id, speed) {
 
 typeWriter(text, 'main', 150);
 typeWriter(content, 'content', 50);
+typeWriter(dots, 'dots', 150);
